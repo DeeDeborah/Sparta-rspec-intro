@@ -18,6 +18,9 @@ describe 'a simple test' do
     a = 1
     b = 2
     c = true
+
+  expect(a + b).to eq 3
+  expect(c).to be true
   end
 
 end
