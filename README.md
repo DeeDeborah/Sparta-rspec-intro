@@ -1,9 +1,9 @@
 #Sparta-rspec-intro
 
-How to conduct your own rspec tests using the rspec ruby gem.
+How to conduct your own rspec tests using the ruby rspec gem.
 
 ##Getting Started
-1. Clone the repo by copying the link of the repository
+1. Clone the repo by copying the link this link "https://github.com/DeeDeborah/Sparta-rspec-intro.git"
 2. In your terminal run this command in the directory you want to clone it into
 
 ``git clone 'despoitiry_url'``
@@ -45,18 +45,6 @@ and then
 
 ``rspec``
 
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
 
 ##Built With
 rspec
