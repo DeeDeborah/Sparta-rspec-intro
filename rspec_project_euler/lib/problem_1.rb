@@ -11,21 +11,24 @@ class Multiples
   end
 
   def multiple(num, div_by_num)
-      (1..999).select do |i|
-    if  i % 3 == 0 || i % 5 == 0
-       @multiples_array << i
+    (1..999).select do |i|
+      if  i % 3 == 0 || i % 5 == 0
+        @multiples_array << i
+      end
     end
-  end
 
-  def sum_multiples(multiple, to)
-    n = (to-1) / multiple
-    n * (n+1) / 2 * multiple
-    end
-  end
+    def sum_multiples(sum, total)
+      sum = 0
+      1000.times do |a|
+        if a % 3 == 0 or a % 5 == 0
+          sum += a
+        end
+      end
+      puts sum
 
 end
 
-mul = Multiples.new
-puts mul.divisible_by?(10,5)
-puts mul.multiple(5,3)
-puts mul.sum_multiples(5, 100)
+# mul = Multiples.new
+# puts mul.divisible_by?(10,5)
+# puts mul.multiple(5,3)
+puts mul.sum_multiples(0, 1000)

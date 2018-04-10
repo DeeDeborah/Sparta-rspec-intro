@@ -17,4 +17,8 @@ describe Multiples do
   it 'should respond false if it is not a multiple of 3' do
     expect(@mul.divisible_by?(9, 5)).to be false
   end
+  it 'shou'
+  # it 'should add add the multiples of 3 and print the sum' do
+  #   expect(@mul)
+  # end
 end
